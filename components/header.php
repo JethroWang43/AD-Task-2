@@ -1,5 +1,5 @@
 <?php
 function getLogo(){
-    return "<h1>NIKE Store</h1>";
+    return "<h1>NIKE STORE</h1>";
 }
 ?>

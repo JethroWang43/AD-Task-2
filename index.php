@@ -29,7 +29,7 @@ include 'components/footer.php';
 <main class="home-content">
     <h2>Welcome to the NIKE Store!</h2>
     <p>Discover the latest collection of stylish and comfortable shoes.</p>
-    <a href="page/page1/index.php" class="btn">Browse Collection</a>
+    <a href="page/page1/index.php" class="btn">Browse Collection.</a>
 </main>
 
 <!-- Footer -->

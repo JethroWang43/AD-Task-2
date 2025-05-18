@@ -2,7 +2,7 @@
 $shoes = [
     [
         'name' => 'AirMax 90',
-        'rating' => '9/10',
+        'rating' => '8/10',
         'price' => '₱6,295',
         'sizes' => [7, 8, 9, 10],
     ],

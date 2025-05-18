@@ -1,6 +1,6 @@
 <?php
 $navItems = [
     "Home" => "/index.php",
-    "Shoes" => "../../page/page1/index.php"
+    "Collection" => "../../page/page1/index.php"
 ];
 ?>

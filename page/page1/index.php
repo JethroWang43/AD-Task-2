@@ -10,7 +10,7 @@ include '../../handler/shoe-handler.php';
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Second Page - Shoe Store</title>
+    <title>List of Shoes | Shoe Store</title>
     <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
