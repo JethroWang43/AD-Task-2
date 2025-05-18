@@ -60,35 +60,25 @@
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
+This is a PHP dynamic shoe store website intended to provide a seamless and interactive shopping experience for the user. It has a minimalist homepage that showcases leading sneaker brands such as Nike and Adidas, with an emphasis on being affordable, of high quality, and convenient. The design is simple and aesthetically pleasing, making navigation easy for users to understand what makes the store unique compared to others. The website also offers fundamental selling points in the form of a separate section, thereby making the strengths of the store evident to customers.
 
-Description of the project in details.
+To make the project have a clean and manageable structure, the project is divided into handler and component files. Handlers are employed to take care of data like navigation items and product data, and components such as the header, navigation bar, footer, and shoe cards are shared across many pages. This modularity ensures reusability and scalability of the code, streamlining the development process. It also reflects sound knowledge in PHP dynamic content rendering, setting the stage for future development and more sophisticated features.
+
 
 ### Key Components
 
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-
-- Authentication & Authorization
-- CRUD Operations for Invetory System
+- Component-based design (Header, Nav, Footer, Shoe Cards)
+- Uses handlers to manage page logic
 
 ### Technology
 
 <!-- TODO: List of Technology Used -->
 #### Language
-![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-
-#### Framework/Library
-![CodeIgniter](https://img.shields.io/badge/CodeIgniter-EF4223?style=for-the-badge&logo=codeigniter&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
-
-#### Databases
-![MySQL](https://img.shields.io/badge/MySQL-00758F?style=for-the-badge&logo=mysql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
 
 #### Deployment
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
@@ -112,7 +102,7 @@ Description of the project in details.
 10. File Structure to follow below.
 
 ```
-AD-ProjectName
+AD-Task-2
 └─ assets
 |   └─ css
 |   |   └─ name.css
