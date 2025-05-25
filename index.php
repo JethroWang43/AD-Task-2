@@ -9,7 +9,7 @@ include 'components/footer.php';
 <head>
     <meta charset="UTF-8">
     <title>Welcome | Shoe Store</title>
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 

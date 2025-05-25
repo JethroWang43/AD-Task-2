@@ -11,7 +11,7 @@ include '../../handler/shoe-handler.php';
 <head>
     <meta charset="UTF-8">
     <title>List of Shoes | Shoe Store</title>
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     <div class="container">
