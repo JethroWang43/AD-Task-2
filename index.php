@@ -1,41 +1,30 @@
-<?php
-include 'components/header.php';
-include 'components/nav.php';
-include 'components/footer.php';
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Welcome | Shoe Store</title>
+    <title>GYM Equipment Rating</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
-<!-- Header Section -->
-<header>
-    <div class="logo">
-        <?php echo getLogo(); ?>
-    </div>
-</header>
+    <header>
+        <?php include 'components/header.php'; ?>
+    </header>
 
-<!-- Top Navigation -->
-<nav class="top-nav">
-    <?php echo getNav(); ?>
-</nav>
+    <main class="main-container">
+        <div class="container-1">
+            <?php include 'components/meal_suggestions.php'; ?>
+        </div>
 
-<!-- Main Content -->
-<main class="home-content">
-    <h2>Welcome to the NIKE Store!</h2>
-    <p>Discover the latest collection of stylish and comfortable shoes.</p>
-    <a href="page/page1/index.php" class="btn">Browse Collection.</a>
-</main>
+        <div class="container-2">
+            <?php include 'components/goal_form.php'; ?>
+        </div>
+    </main>
 
-<!-- Footer -->
-<footer class=footer>
-    <?php echo getFooter(); ?>
-</footer>
+    <footer class="footer">
+        <?php include 'components/footer.php'; ?>
+    </footer>
+    </footer>
 
 </body>
 </html>

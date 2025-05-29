@@ -1,5 +1,3 @@
-<?php
-function getFooter(){
-    return "<footer><p>CopyRight: NIKE STORE 2025</p></footer>";
-}
-?>
+<div class="footer-content">
+    <p>&copy; 2025 GYM Equipment Store. All rights reserved.</p>
+</div>

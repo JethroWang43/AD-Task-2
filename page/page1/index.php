@@ -1,47 +1,29 @@
-<?php
-include '../../components/header.php';
-include '../../components/nav.php';
-include '../../components/footer.php';
-include '../../components/shoe-card.php';
-include '../../handler/shoe-handler.php';
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>List of Shoes | Shoe Store</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../page/page1/assets/css/style.css">
+    <script defer src="../../page/page1/assets/js/script.js"></script>
+    <title>Gym Equipments</title>
 </head>
-<body>
-    <div class="container">
-        <!-- Logo -->
-        <header>
-            <?php echo getLogo(); ?>
-        </header>
-        <nav class="top-nav">
-            <?php echo getNav(); ?>
-        </nav>
+<body style="background-color: #90D1CA; color: black;">
 
-        <div class="main-content">
-            <!-- Shoe Grid -->
-            <section class="shoe-grid">
-                <?php
-                if (isset($shoes) && is_array($shoes)) {
-                    foreach ($shoes as $shoe) {
-                        echo renderShoeCard($shoe);
-                    }
-                } else {
-                    echo "<p>No shoes available.</p>";
-                }
-                ?>
-            </section>
+    <header>
+        <?php include __DIR__ . '/../../components/header.php'; ?>
+    </header>
+
+   <main class="main-container" style="display: flex; justify-content: center; padding: 20px;">
+        <div class="equipment-container" style="background-color: white; border-radius: 10px; padding: 20px; width: 80%;">
+            <h2 style="color: #129990;">Our Gym Equipment</h2>
+            <?php include __DIR__ . '/../../components/equipment_filter.php'; ?>
         </div>
+    </main>
 
-        <!-- Footer -->
-        <footer class=footer>
-            <?php echo getFooter(); ?>
-        </footer>
-    </div>
+
+    <footer class="footer">
+        <?php include __DIR__ . '/../../components/footer.php'; ?>
+    </footer>
+
 </body>
 </html>
